@@ -1,4 +1,4 @@
-class toria {
+class Toria {
     constructor (site) {
         this.site = site; //variável de interface
         // ações
@@ -6,9 +6,9 @@ class toria {
 
     exibirSite () {
         // ações
-        window.open(this.www.cifraclub.com.br);
+        window.open(this.site);
     } 
 }
 
-var novoObjeto = new Objeto ("https://www.cifraclub.com.br/tie/a-noite/");
-novoObjeto.exibirSite();
+var novoToria = new Toria ("https://www.cifraclub.com.br/tie/a-noite/");
+novoToria.exibirSite();
